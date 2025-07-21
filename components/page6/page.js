@@ -49,7 +49,7 @@ export default function Page9({data, id}) {
         return (
           <AnimateSee key={index}>
             <div
-              className="w-[21.5rem] h-52 overflow-hidden mx-auto rounded-lg shadow-sm"
+              className="w-[21.5rem] sm:w-full h-52 overflow-hidden mx-auto rounded-lg shadow-sm"
               onClick={() => handleImg(index)}
             >
               <img
@@ -65,7 +65,7 @@ export default function Page9({data, id}) {
       // Dua kolom horizontal
       if (index % 3 === 1) {
         return (
-          <div key={index} className="flex gap-4 justify-between">
+          <div key={index} className="flex gap-4 justify-center">
             {/* Gambar kiri */}
             <AnimateSee>
               <div
