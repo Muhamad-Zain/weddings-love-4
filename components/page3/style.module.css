@@ -1,0 +1,41 @@
+.bgCardMen{
+    @apply relative w-72 h-72 sm:max-w-[17rem] sm:max-h-[17rem] border-opacity-90 border-[8px] border-double border-[#7e517e]   rounded-full ;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+
+}
+/* .bgCardMen::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30%;
+    height: 100%;
+} */
+
+/* .chil{
+    @apply w-[20%] relative;
+ 
+} */
+/* .chil >h3{
+    @apply  text-center whitespace-nowrap  text-xl sm:font-bold  sm:text-4xl font-serif;
+    transform: rotate(90deg);
+    text-shadow: 1px 1px white;
+} */
+.bgCardGrils{
+    @apply relative w-72 h-72 sm:max-w-[17rem] sm:max-h-[17rem] border-opacity-90 border-[8px] border-double border-[#7e517e]  rounded-full;
+
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+/* 
+.bgCardGrils::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 100%;
+} */
