@@ -65,7 +65,7 @@ export default function Page9({data, id}) {
       // Dua kolom horizontal
       if (index % 3 === 1) {
         return (
-          <div key={index} className="flex gap-4 justify-center">
+          <div key={index} className="flex gap-4 justify-between">
             {/* Gambar kiri */}
             <AnimateSee>
               <div
