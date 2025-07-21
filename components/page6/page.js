@@ -49,7 +49,7 @@ export default function Page9({data, id}) {
         return (
           <AnimateSee key={index}>
             <div
-              className="w-full h-52 overflow-hidden rounded-lg shadow-sm"
+              className="w-[21.5rem] h-52 overflow-hidden mx-auto rounded-lg shadow-sm"
               onClick={() => handleImg(index)}
             >
               <img
